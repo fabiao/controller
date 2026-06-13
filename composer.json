@@ -1,5 +1,5 @@
 {
-  "name": "kokiddp/controller",
+  "name": "fabiao/controller",
   "type": "package",
   "license": "MIT",
   "description": "WordPress package to enable a basic controller when using Blade with Sage 9",
@@ -23,11 +23,11 @@
     "issues": "https://github.com/soberwp/controller/issues"
   },
   "require": {
-    "php": ">=5.6.0",
-    "brain/hierarchy": "^2.4.0"
+    "php": "^8.0",
+    "brain/hierarchy": "^3"
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "^3.2"
+    "squizlabs/php_codesniffer": "^3"
   },
   "autoload": {
     "psr-4": {
